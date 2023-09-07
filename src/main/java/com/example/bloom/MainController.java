@@ -15,6 +15,11 @@ public class MainController {
         return "index";
     }
 
+    @GetMapping("regist")
+    public String regist(){
+        return "regist/regist";
+    }
+
     @GetMapping("test")
     public String test(){
 
