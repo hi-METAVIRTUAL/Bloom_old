@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Info Setting</title>
+</head>
+<body class="beigeContainer">
+    <div th:include="Components/PostLoginHeader.html"></div>
+
+    <div>
+        이름 <input type="text" name="name" value="<.getName>" readonly="readonly"><br>
+        아이디 <input type="text" name="id" value="<.getId>" readonly="readonly"><br>
+        비밀번호 * <input type="password" name="pass" placeholder="8 ~ 20 자 / 대소문자, 숫자, 특수기호 필수 공백 불가"
+        이메일 * <input type="text"> @
+        인증번호입력 *
+        닉네임 *
+        전화번호 *
+    </div>
+
+    <div th:include="Components/Footer.html"></div>
+</body>
+</html>
