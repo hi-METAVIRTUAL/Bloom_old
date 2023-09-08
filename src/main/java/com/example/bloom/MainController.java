@@ -37,4 +37,10 @@ public class MainController {
 
         return "psychological/testStart";
     }
+
+    @GetMapping("review")
+    public String review1() {
+
+        return "reviewboard/reviewmain";
+    }
 }
