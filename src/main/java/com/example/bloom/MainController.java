@@ -17,7 +17,7 @@ public class MainController {
 
     @GetMapping("regist")
     public String regist(){
-        return "regist/regist";
+        return "regist/registCategory";
     }
 
     @GetMapping("test")
