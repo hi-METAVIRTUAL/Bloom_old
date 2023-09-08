@@ -2,6 +2,7 @@ body {
     font-family: 'Noto Sans KR';
     margin:0;
     color: #3C5B4B;
+    display: flex;
 }
 
 .container {
@@ -11,10 +12,10 @@ body {
     margin-top: 100px;
     text-align: center;
 }
-
+/**/
 .image {
-    width: 230px;
-    height: 300px;
+    width: 200px;
+    height: 270px;
 }
 
 .maintxt {
