@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <meta charset="UTF-8">
     <title>Pre Login Header</title>
     <style>
-        .container {
+        body {
             text-align: center;
             color: #C09A81;
         }
         ul#menu li {
             display:inline;
+
         }
         #title{
-            font-family: 'Inter';
-            font-size: 100px;
-            font-weight: 1;
+            font-family: 'Raleway';
+            font-size: 80px;
+            font-weight: lighter;
             margin-bottom: unset;
-            margin-top: 0;
+        }
+
+        .line {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            border-color:#C09A81;
+            margin-top: -10px;
+            margin-bottom: -10px;
         }
     </style>
 </head>
 <body>
-<header class="container">
-<p id="title">Bloom</p>
-<hr class="solid" style="border-color:#C09A81; width:1000px;">
-<div>
+
+<div id="title">Bloom</div>
+<hr class="line"/>
+
     <ul id="menu">
         <li>소개</li>
         &emsp;&emsp;<li>상담사</li>
@@ -34,8 +43,8 @@
         &emsp;&emsp;<li>로그인</li>
         &emsp;&emsp;<li>회원가입</li>
     </ul>
-</div>
-<hr class="solid" style="border-color:#C09A81; width:1000px;">
-</header>
+
+<hr class="line"/>
+
 </body>
 </html>
