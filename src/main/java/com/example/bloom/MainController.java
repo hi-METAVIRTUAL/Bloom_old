@@ -6,6 +6,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MainController {
 
+
+
+
+
+
+
+
     @GetMapping("/index")
     public void gomain() {
     }
@@ -17,7 +24,7 @@ public class MainController {
 
     @GetMapping("regist")
     public String regist(){
-        return "regist/regist";
+        return "regist/registCategory";
     }
 
     @GetMapping("test")
