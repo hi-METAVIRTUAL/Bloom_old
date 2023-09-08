@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>last</title>
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/psy/icon.css">
+    <th:block th:include="Components/PostLoginHeader.html"></th:block>
+    <style>
+        div {color: #C09A81;}
+    </style>
+</head>
+<body class="BrownContainer">
+<div class="box"><br>
+    해당사항이 있으면 체크해주세요.<br><br>
+    <h3>희망 상담사 성별</h3>
+    <form><br>
+        <input type="checkbox" name="gender" value="남">남자<br>
+        <input type="checkbox" name="gender" value="여">여자<br><br>
+    <h3>최근고민분야</h3><br>
+    <input type="checkbox" name="family" value="가족관계">
+    <input type="checkbox" name="couple" value="연인관계">연인관계
+    <input type="checkbox" name="colleague" value="동료관계">동료관계
+    <input type="checkbox" name="alone" value="소외감">소외감
+    <input type="checkbox" name="etc" value="기타">기타 <br><br>
+        <textarea placeholder="기타내용작성 50장 이내"></textarea> <br><br><br>
+        <input type="submit" value="제출하기">
+    </form>
+</div>
+<footer>
+    <th:block th:include="Components/Footer.html"></th:block>
+</footer>
+</body>
+</html>
