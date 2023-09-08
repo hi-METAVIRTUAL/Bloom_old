@@ -4,12 +4,7 @@
     background: #C09A81;
     text-align: center;
 }
-.beigeContainer{
-    background-color: #FFF6E2;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
+
 .greenContainer{}
 
 .whiteContainer{}
